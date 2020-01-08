@@ -7,6 +7,7 @@
     border-top: 2px dashed grey;
     border-bottom: 2px dashed grey;
     padding: 20px 0 20px 0;
+    text-align: center;
 }
 
 .taskRow {
