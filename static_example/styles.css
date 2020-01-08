@@ -1,0 +1,15 @@
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.taskCountArea {
+    border-top: 2px dashed grey;
+    border-bottom: 2px dashed grey;
+    padding: 20px 0 20px 0;
+}
+
+.taskRow {
+    border-bottom: 2px solid darkgray;
+    padding: 20px 0 20px 0;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Todo List</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="row d-none d-md-block">
+            <div class="col-12 header">
+                <h1>My Todo List</h1>
+            </div>
+        </div>
+
+        <!-- Add Task Area -->
+        <div class="row">
+            <div class="col-12">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Task to add....">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-primary" type="button">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Task Count Area -->
+        <div class="row taskCountArea">
+            <div class="col-12">
+                Tasks left: 2
+            </div>
+        </div>
+
+        <!-- Tasks Area -->
+        <div class="row taskRow">
+            <div class="col-12 col-md-8">
+                Buy some milk
+            </div>
+            <div class="col-6 col-md-2">
+                <button type="button" class="btn btn-success">Done</button>
+
+            </div>
+            <div class="col-6 col-md-2">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+        <div class="row taskRow">
+            <div class="col-12 col-md-8">
+                Pickup dog food
+            </div>
+            <div class="col-6 col-md-2">
+                <button type="button" class="btn btn-success">Done</button>
+            </div>
+            <div class="col-6 col-md-2">
+                <button type="button" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
